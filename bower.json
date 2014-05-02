@@ -1,0 +1,25 @@
+{
+  "name": "angular-d3-3ddonut-directive",
+  "version": "0.0.1",
+  "authors": [
+    "Victor Campos <victorcampos@ufrj.br>"
+  ],
+  "description": "Directives for d3 charts samples",
+  "main": "directive.js",
+  "keywords": [
+    "angular",
+    "d3",
+    "charts"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.4.6"
+  }
+}
