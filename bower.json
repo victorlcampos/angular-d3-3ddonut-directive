@@ -5,7 +5,7 @@
     "Victor Campos <victorcampos@ufrj.br>"
   ],
   "description": "Directives for d3 charts samples",
-  "main": "directive.js",
+  "main": "angular-d3donut-directive.js",
   "keywords": [
     "angular",
     "d3",
