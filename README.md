@@ -14,3 +14,6 @@ $scope.data = [
 <!-- View -->
 <div dttt-ddd-donut ng-model="data"></div>
 ```
+
+## TODO
+Think in the better way to use Donut3D.transition

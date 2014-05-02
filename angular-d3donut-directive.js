@@ -124,7 +124,7 @@ var dtttModule =  angular.module('dttt.dddDonut', []).directive('dtttDddDonut', 
     graph.selectAll('svg').remove();
 
     var svg = graph.append("svg");
-    svg.append("g").attr("id","donut").attr("width", opts.width || 700).attr("height", opts.height || 300);
+    svg.append("g").attr("id",  opts.id || "donut").attr("width", opts.width || 700).attr("height", opts.height || 300);
 
     Donut3D.draw( opts.id || "donut", data, 150, 150, 130, 100, 30, 0.4);
   }
